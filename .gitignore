@@ -1,0 +1,33 @@
+# Python виртуальные окружения
+.venv/
+venv/
+env/
+ENV/
+
+# Кэш Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Данные (не коммитить большие файлы)
+*.csv
+*.xlsx
+*.xls
+*.db
+*.sqlite3
+*.pkl
+*.pickle
+
+# Логи и системные файлы
+*.log
+.DS_Store
+Thumbs.db
+
+# Ключи и пароли
+.env
+.secrets
+credentials.json
